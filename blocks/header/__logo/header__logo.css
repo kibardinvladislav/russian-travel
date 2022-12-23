@@ -1,1 +1,4 @@
-.header__logo {}
+.header__logo {
+  display: block;
+  flex-shrink: 0;
+}

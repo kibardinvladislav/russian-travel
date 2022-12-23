@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
+    <style>
+      * {
+        outline: 1px solid red;
+      }
+    </style>
   </head>
 
   <body class="page">
-    <header class="header page__section">
+    <header class="header page__header">
       <img src="./images/header-logo.svg" alt="Карта России" class="header__logo" />
       <div class="header__lang-links">
         <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
@@ -17,7 +22,7 @@
     </header>
 
     <main class="content">
-      <section class="lead page__section page__section_xl_container">
+      <section class="lead page__section page__section_xl_container page__section_md_full">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__figure">
@@ -59,7 +64,7 @@
         </div>
       </section>
 
-      <section class="photo-grid page__section">
+      <section aria-label="Фотографии мест" class="photo-grid page__section">
         <img
           src="./images/photo-grid-train.jpg"
           alt="Фото из окна поезда"
@@ -122,7 +127,10 @@
         />
       </section>
 
-      <section class="places page__section page__section_xl_container">
+      <section
+        aria-label="Места"
+        class="places page__section page__section_xl_container page__section_sm_full"
+      >
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image" />
@@ -251,7 +259,7 @@
       </section>
     </main>
 
-    <footer class="footer page__section page__section_lg_full">
+    <footer class="footer page__footer">
       <ul class="footer__links">
         <li>
           <a href="https://yandex.ru/maps" class="footer__link">Карты</a>

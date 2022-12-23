@@ -2,8 +2,9 @@
   position: absolute;
   left: 0;
   top: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
-  min-height: 740px;
   background-color: #2a2c2f;
   opacity: 0.3;
   z-index: -1;

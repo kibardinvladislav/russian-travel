@@ -1,6 +1,6 @@
 .header {
   height: 52px;
-  padding-top: 28px;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }

@@ -5,6 +5,10 @@
 @import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__section/_lg/page__section_lg_full.css');
 @import url('../blocks/page/__section/_xl/page__section_xl_container.css');
+@import url('../blocks/page/__section/_md/page__section_md_full.css');
+@import url('../blocks/page/__section/_sm/page__section_sm_full.css');
+@import url('../blocks/page/__header/page__header.css');
+@import url('../blocks/page/__footer/page__footer.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
